@@ -4,5 +4,6 @@
    xmlns:core="sap.ui.core">
    <Text text="Hallo Welt"/>
    <core:HTML content="&lt;br&gt;"/>
+   <Link text="zur Schule" href="http://bs-hassfurt.de"/>
    <Text text="Hallo Schule"/>
 </mvc:View>
