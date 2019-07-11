@@ -3,6 +3,6 @@
    xmlns:mvc="sap.ui.core.mvc"
    xmlns:core="sap.ui.core">
    <Text text="Hallo Welt"/>
-   <core:HTML content="<br>"/>
+   <core:HTML content="&lt;br&gt;"/>
    <Text text="Hallo Schule"/>
 </mvc:View>
