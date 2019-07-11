@@ -2,8 +2,10 @@
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc"
    xmlns:core="sap.ui.core">
+   <VBox>
    <Text text="Hallo Welt"/>
-   <core:HTML content="&lt;br&gt;"/>
+   <!--<core:HTML content="&lt;br&gt;"/>-->
    <Link text="zur Schule" href="http://bs-hassfurt.de"/>
    <Text text="Hallo Schule"/>
+   </VBox>
 </mvc:View>
