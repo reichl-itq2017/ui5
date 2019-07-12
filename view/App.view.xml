@@ -7,7 +7,7 @@
       <Text text="Hallo Welt"/>
       <!-- <core:HTML content="&lt;br&gt;"/> -->
       <Link text="zur Schule" href="http://bs-hassfurt.de"/>
-      <Text text="Hallo Schule"/>
+      <Text text="Jetzt mit Toast!"/>
       <Button text="Drück mich" press=".onShowHello"/>
    </VBox>
 </mvc:View>
