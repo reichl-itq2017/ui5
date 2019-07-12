@@ -10,5 +10,10 @@
       <Text text="Jetzt mit Toast!"/>
       <Button text="Drück mich" press=".onShowHello"/>
       <Button text="Alert, alert..." press=".onAlert"/>
+      <Input
+      value="{/recipient/name}"
+      description="Hallo {/recipient/name}"
+      valueLiveUpdate="true"
+      width="60%"/>
    </VBox>
 </mvc:View>
