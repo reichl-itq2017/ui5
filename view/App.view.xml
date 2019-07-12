@@ -9,5 +9,6 @@
       <Link text="zur Schule" href="http://bs-hassfurt.de"/>
       <Text text="Jetzt mit Toast!"/>
       <Button text="Drück mich" press=".onShowHello"/>
+      <Button text="Alert, alert..." press=".onAlert">
    </VBox>
 </mvc:View>
