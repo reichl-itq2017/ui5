@@ -6,7 +6,7 @@ sap.ui.define([
 	new ComponentContainer({
 		name: "hts.itq2017.walkthrough",	// Namespace unserer Anwendung oder Komponente?
 		settings : {
-			id : "walkthrough"				// ?
+			id : "meinWalkthrough"			// war "walkthrough"
 		},
 		async: true
 	}).placeAt("content");
