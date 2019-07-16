@@ -11,13 +11,14 @@
 		data-sap-ui-libs="sap.m"
 		data-sap-ui-compatVersion="edge"
 		data-sap-ui-async="true"
-		data-sap-ui-onInit="module:hts/itq2017/walkthrough/index"
+		data-sap-ui-onInit="module:sap/ui/core/ComponentSupport"
 		data-sap-ui-resourceroots='{
 			"hts.itq2017.walkthrough": "./"
 		}'>
-
 	</script>
+	<!-- data-sap-ui-onInit="module:hts/itq2017/walkthrough/index" für index.js -->
 </head>
 <body class="sapUiBody" id="content">
+	<div data-sap-ui-component data-name="hts.itq2017.walkthrough" data-id="container" data-settings='{"id" : "walkthrough"}'></div>
 </body>
 </html>
