@@ -10,6 +10,7 @@
                   <Panel headerText="{i18n>helloPanelTitle}" class="sapUiResponsiveMargin" width="auto">
                      <content>
                         <mvc:XMLView viewName="hts.itq2017.walkthrough.view.HelloPanel"/>
+                        <mvc:XMLView viewName="hts.itq2017.walkthrough.view.InvoiceList"/>
                      </content>
                   </Panel>
                </content>
